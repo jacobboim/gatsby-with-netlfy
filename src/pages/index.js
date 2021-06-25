@@ -10,6 +10,8 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     {Header.name}
+    {Header.location}
+    {Header.street}
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <StaticImage
