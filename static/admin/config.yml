@@ -16,6 +16,8 @@ collections:
           - { label: name, name: name, widget: string }
           - { label: location, name: location, widget: string }
           - { label: street, name: street, widget: string }
+          - { label: city, name: city, widget: string }
+
           - { label: navbar, name: navbar, widget: markdown }
       #     - label: Team
       #       name: team

@@ -9,9 +9,11 @@ import Header from "../../site/header/header_site.json"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    {Header.name}
-    {Header.location}
-    {Header.street}
+    <p>
+      i work in the {Header.location} on {Header.street} street
+      {/* {Header.name} */}
+    </p>
+
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <StaticImage
