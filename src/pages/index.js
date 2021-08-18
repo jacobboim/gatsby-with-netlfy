@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <p>
-      i work in the {Header.location} on {Header.street} street
+      i work in the {Header.location} on {Header.street} street, {Header.city}
       {/* {Header.name} */}
     </p>
 
